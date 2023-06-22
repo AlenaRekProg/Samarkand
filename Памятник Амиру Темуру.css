@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .container {
+    margin: 0 auto;
+    padding: 50px;
+ }
+ 
+ .topbutton {
+    width:100px;
+    border:2px solid #000000;
+    background:#cccbcb;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    }
+ 
+ h1 {
+    text-align: center;
+ 
+    margin-bottom: 30px;
+    margin-top: 40px;
+ }
+ 
+ p {
+    text-align: justify;
+    margin-top: 0em;
+    margin-bottom: 5em;
+    font-size:24px;
+ }
+ 
+ .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+ }
+ 
+ .social-link {
+    margin: 0 10px;
+ }
+ 
+ .social-link:hover {
+    color: black;
+    cursor: pointer;
+ }
+ 
+ 
+ .foto{
+ width: 23%;
+ height: 23%;
+ float: left;
+ border-radius: 70px;
+ padding-left: 40px;
+ padding-right: 40px;
+ padding-top: 40px;
+ padding-bottom: 40px;
+ } 
+ 
+ header {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  position: relative;
+ }
+ 
+ nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  width: 80%;
+  margin: auto;
+ }
+ 
+ .logo {
+  flex-grow: 1;
+  text-align: center;
+ }
+ 
+ .logo img {
+  width: 450px;
+ }
+ 
+ .left-menu, .right-menu {
+  display: flex;
+ }
+ 
+ .left-menu a, .right-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 70px 70px;
+  font-size: 36px;
+ }
+ 
+ 
+ footer {
+ background-color: #000;
+ color: #fff;
+ padding: 50px 0;
+ }
+ 
+ footer p {
+ font-size: 16px;
+ text-align: left;
+ }
+ 
+ .social-icons {
+ list-style: none;
+ text-align: right;
+ }
+ 
+ .social-icons li {
+ display: inline-block;
+ margin-left: 10px;
+ }
+ 
+ .social-icons li:first-child {
+ margin-left: 0;
+ }
+ 
+ .social-icons a {
+ color: #fff;
+ font-size: 20px;
+ }
+ 
+ .social-icons a:hover {
+ color: #c44;
+ }
